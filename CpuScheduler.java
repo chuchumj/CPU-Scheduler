@@ -1,5 +1,5 @@
 import java.util.ArrayList;
-
+// round robin
 public class CpuScheduler {
     int clock;         // keeps track of overall time
     ArrayList<Process> endProcess;
