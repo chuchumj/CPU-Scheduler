@@ -1,4 +1,4 @@
-// process class
+
 class Process {
      int processId;
      int processArrivalTime;
