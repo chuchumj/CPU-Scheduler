@@ -7,7 +7,7 @@ public class CpuScheduler {
     ArrayList<Process> readyQueue;
     int timeQuantum;
     Process runningState;
-    int counter = 0; // keeps track of how many times the process when in and out of cpu(running)
+    int counter = 0; // keeps track of how many times the process when in and out of cpu
     int contextSwitch;
 
 
