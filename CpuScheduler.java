@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 
 public class CpuScheduler {
-    int clock;         // keeps track of overall time
+    int clock;         // clock for timing
     ArrayList<Process> endProcess;
     ArrayList<Process> arrayOfProcesses;
     ArrayList<Process> readyQueue;
