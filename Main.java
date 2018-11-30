@@ -11,7 +11,7 @@ public class Main {
 
         File file = new File(path);
         FileReader filereader ;
-        ArrayList<Process> arrayOfProcesses = new ArrayList<Process>();//  create an empty arraylist that increases and shrinks in size
+        ArrayList<Process> arrayOfProcesses = new ArrayList<Process>();//  create an empty arrayList that increases and shrinks in size
 
         try{
                 filereader = new FileReader(file);// gets file name from string object and opens the file in read mode
